@@ -1,3 +1,17 @@
 h1 {
   text-align: center;
 }
+
+a {
+  text-decoration: none;
+}
+
+ul {
+   list-style: none;
+ 
+  
+}
+
+li {
+   display: inline;
+}
