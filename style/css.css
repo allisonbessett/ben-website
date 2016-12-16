@@ -1,17 +1,17 @@
 h1 {
-  text-align: center;
+  margin: 2rem 4rem 1rem 4rem;
+}
+
+small {
+  float: right; 
 }
 
 a {
-  text-decoration: none;
+  padding: 1rem;
 }
 
-ul {
-   list-style: none;
- 
-  
-}
-
-li {
-   display: inline;
+.desk {
+  width: 60rem;
+  margin: auto;
+  display: block;
 }
