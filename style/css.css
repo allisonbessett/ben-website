@@ -1,17 +1,23 @@
 h1 {
-  margin: 2rem 4rem 1rem 4rem;
+  text-align: center;
+  font-size: 220%;
 }
 
-small {
-  float: right; 
+nav {
+  font-size: 135%; 
+  text-align: center;
+  padding-bottom: 3rem; 
+  text-decoration: none;
 }
 
-a {
-  padding: 1rem;
+
+.nav-link {
+  padding: 2rem;
+  text-decoration: none;
 }
 
 .desk {
-  width: 60rem;
+  width: 60%;
   margin: auto;
   display: block;
 }
