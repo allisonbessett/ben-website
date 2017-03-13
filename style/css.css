@@ -1,6 +1,9 @@
 h1 {
   text-align: center;
   font-size: 220%;
+  color: #101010;
+  letter-spacing: 0.17rem;
+  font-family: 'Fjalla One', sans-serif;
 }
 
 nav {
@@ -12,12 +15,33 @@ nav {
 
 
 .nav-link {
+  color: #3B3D43;
   padding: 2rem;
   text-decoration: none;
+  font-family: 'Muli', sans-serif;
+  letter-spacing: 0.02rem;
+}
+
+.nav-link:hover {
+  text-decoration: none;
+}
+
+
+
+.about-me-tag, .about-me {
+  text-align: center;
 }
 
 .desk {
   width: 60%;
   margin: auto;
   display: block;
+}
+
+.ben {
+  display: inline-block;
+}
+
+p {
+  display: inline-block;
 }
