@@ -1,6 +1,7 @@
 h1 {
   text-align: center;
-  font-size: 240%;
+  font-size: 250%;
+  padding-top: 2rem;
   color: #101010;
   letter-spacing: 0.17rem;
   font-family: 'Fjalla One', sans-serif;
@@ -19,7 +20,6 @@ nav {
 
 .nav-link {
   color: #3B3D43;
-  text-align: center;
   text-decoration: none;
   font-family: 'Muli', sans-serif;
   letter-spacing: 0.02rem;
@@ -37,12 +37,12 @@ nav {
   text-align: center;
 }
 
-h3, h5 {
+h2, h3, h5 {
   text-align: center;
 }
 
 .desk {
-  padding-top: 3rem;
+  padding-top: 2rem;
   width: 60%;
   margin: auto;
   display: block;
@@ -50,6 +50,9 @@ h3, h5 {
 
 .ben {
   display: inline-block;
+  padding-bottom: 1rem;
+  width: 60%;
+  height: auto;
 }
 
 p {
