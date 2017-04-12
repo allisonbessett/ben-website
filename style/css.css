@@ -53,11 +53,10 @@ nav {
   text-align: center;
 }
 
-h2, h3, h5 {
-  text-align: center;
+h2 {
+  font-size: 180%; 
+  border-bottom: solid 0.3rem;
 }
-
-
 
 .ben {
   display: inline-block;
