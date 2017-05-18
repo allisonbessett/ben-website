@@ -60,14 +60,15 @@ nav {
   nav {  
     text-align: center;
     margin: auto;
+    width: 100%;
   }
 }
 
   .desk {
-    max-width: 60%;
+    max-width: 90%;
     height: auto;
     margin: auto;
-    padding-top: 1rem;
+    padding-top: 5rem;
     display: block;
   }
 
@@ -78,6 +79,12 @@ nav {
   }
 }
 
+@media screen and (max-width: 700px){
+  .desk {
+    max-width: 90%;
+    padding-top: 8rem;
+  }
+}
 .collaborate-paragraph {
   text-align: center;
 }
