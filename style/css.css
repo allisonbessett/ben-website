@@ -3,8 +3,6 @@
   width: 100%;
 }
 
-
-
 h1 { /* For screen size smaller than 699px*/
   
   font-size: 250%;
@@ -26,15 +24,14 @@ h1 { /* For screen size smaller than 699px*/
 header {
   padding-top: 1rem;
   padding-bottom: 2rem;
-  width: 90%; 
+  width: 100%; 
 }
   
 nav {
-  margin-left: 30rem;
-  width: 70%;
+  width: 60%;
   font-size: 120%; 
   padding-bottom: 3rem; 
-  padding-left: 10rem;
+  float: right;
 }
 
 .nav-link {
@@ -48,24 +45,38 @@ nav {
   text-decoration: none;
 }
 
-@media screen and (max-width: 992px) and (min-width: 700px) {
+@media screen and (max-width: 1000px) and (min-width: 500px) {
   nav {
-    float: right;
-    width: 60%;
-    display: inline-block;
+ 
+    width: 50%;
+    display: inline; 
     padding: 1rem;
     white-space: nowrap;
     text-align: right;
   }
 }
-  
-  #desk {
-    max-width: 80% !important;
+
+@media screen and (max-width: 499px) {
+  nav {  
+    text-align: center;
+    margin: auto;
+  }
+}
+
+  .desk {
+    max-width: 60%;
     height: auto;
     margin: auto;
     padding-top: 1rem;
     display: block;
   }
+
+@media screen and (max-width: 1400px) and (min-width: 800px) {
+  .desk {
+       max-width: 70%;
+    padding-top: 5rem;
+  }
+}
 
 .collaborate-paragraph {
   text-align: center;
