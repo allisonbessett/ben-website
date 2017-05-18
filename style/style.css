@@ -125,11 +125,16 @@ ul {
 }
 .ben {
   display: inline-block;
-  padding-bottom: 1rem;
-  width: 60%;
+  padding-bottom: 2rem;
+  width: 100%;
   height: auto;
+  margin: auto;
 }
 
 p {
   display: inline-block;
+}
+
+.about-me-desc {
+  padding-right: 10rem;
 }
