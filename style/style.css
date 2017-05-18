@@ -107,6 +107,12 @@ ul {
   padding-bottom: 1.5rem;
 }
 
+.video-size {
+  width: 50%;
+  margin: auto;
+}
+
+
 .smaller {
   display: inline;
   font-weight: 300;
