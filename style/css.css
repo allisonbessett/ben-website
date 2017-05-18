@@ -23,16 +23,6 @@ h1 { /* For screen size smaller than 699px*/
   }
 }
 
-@media screen and (max-width: 992px) and (min-width: 700px) {
-  h1 {
-    margin-top: 0;
-    position:absolute;
-    top:0;
-    bottom:0;
-    padding-top: 1rem;
-  }
-
-  
 header {
   padding-top: 1rem;
   padding-bottom: 2rem;
@@ -69,11 +59,11 @@ nav {
   }
 }
   
-  .desk {
-    max-width: 100%;
+  #desk {
+    max-width: 80% !important;
+    height: auto;
     margin: auto;
     padding-top: 1rem;
-    overflow: hidden;
     display: block;
   }
 
