@@ -124,17 +124,35 @@ ul {
   padding-top: 0.8rem;
 }
 .ben {
-  display: inline-block;
+  display: inline;
   padding-bottom: 2rem;
-  width: 100%;
+  width: 90%;
   height: auto;
   margin: auto;
+}
+
+
+@media screen and (max-width: 990px) {
+  .ben {
+    width: 30%;
+    display: inline;
+    margin: auto;
+  }
+} 
+@media screen and (max-width: 992px) {
+  .ben {
+display: none;
+  }
 }
 
 p {
   display: inline-block;
 }
-
+@media screen and (max-width: 1000px) {
 .about-me-desc {
-  padding-right: 10rem;
+  width: 80%;
+  margin: auto;
+  
+
+  }
 }
