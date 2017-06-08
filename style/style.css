@@ -115,6 +115,7 @@ ul {
 .edu-space {
   padding-top: 0.8rem;
 }
+
 .ben {
   display: inline;
   padding-bottom: 2rem;
@@ -135,6 +136,7 @@ ul {
     margin: auto;
   }
 } 
+
 @media screen and (max-width: 992px) {
   .ben {
     display: none;
