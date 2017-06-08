@@ -124,7 +124,7 @@ ul {
 }
 
 .fa {
-  padding: 0.5rem;
+  padding: 0 0.5rem 2rem;
   color: #16213B;
 }
 
@@ -151,6 +151,15 @@ p {
   margin: auto;
   }
 }
+
+.video-size {
+  width: 50%;
+  margin: auto;
+  padding-bottom: 2rem;
+}
+
+
+
 
 
 
