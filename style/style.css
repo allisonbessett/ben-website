@@ -43,11 +43,11 @@ nav {
 
 .nav-link:hover {
   text-decoration: none;
+  color: #16213B;
 }
 
 @media screen and (max-width: 1000px) and (min-width: 500px) {
   nav {
- 
     width: 50%;
     display: inline; 
     padding: 1rem;
@@ -64,19 +64,19 @@ nav {
   }
 }
 
-  .desk {
-    max-width: 90%;
-    height: auto;
-    margin: auto;
-    padding-top: 5rem;
-    display: block;
-  }
+.desk {
+  max-width: 90%;
+  height: auto;
+  margin: auto;
+  padding-top: 5rem;
+  display: block;
+}
 
 @media screen and (max-width: 1400px) and (min-width: 800px) {
   .desk {
-       max-width: 70%;
+    max-width: 70%;
     padding-top: 5rem;
-  }
+    }
 }
 
 @media screen and (max-width: 700px){
@@ -84,9 +84,6 @@ nav {
     max-width: 90%;
     padding-top: 4rem;
   }
-}
-.collaborate-paragraph {
-  text-align: center;
 }
 
 .about-me-tag, .about-me {
@@ -99,8 +96,9 @@ h2 {
 }
 
 h4 {
-  padding-bottom: 1rem;
+  padding: 1rem 0;
   font-weight: 200;
+  text-decoration-line: underline ;
 }
 
 ul {
@@ -131,6 +129,10 @@ ul {
   margin: auto;
 }
 
+.fa {
+  padding: 0.5rem;
+  color: #16213B;
+}
 
 @media screen and (max-width: 990px) {
   .ben {
@@ -141,18 +143,26 @@ ul {
 } 
 @media screen and (max-width: 992px) {
   .ben {
-display: none;
+    display: none;
   }
 }
 
 p {
   display: inline-block;
 }
+
 @media screen and (max-width: 1000px) {
 .about-me-desc {
   width: 80%;
   margin: auto;
-  
-
   }
 }
+
+
+
+
+
+
+
+
+
