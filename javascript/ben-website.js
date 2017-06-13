@@ -10,28 +10,21 @@ $(document).ready(function () {
     gunsUp.html('<div class="embed-responsive embed-responsive-16by9">' +
       '<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/HSV283fQxyo" frameborder="0" allowfullscreen></iframe></div>');
   }; 
-
-  window.onload = function () {
-    setTimeout(loadGuns, 2000);
-  };
     
   function loadStrat() {
     strat.html('<div class="embed-responsive embed-responsive-16by9">' + 
       '<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/fLywItYlWc0" frameborder="0" allowfullscreen></iframe></div>');
   };
   
-  window.onload = function() {
-    setTimeout(loadStrat, 2000);
-  };
-   console.log('working');
-  
   function loadDisney() {
     disney.html('<div class="embed-responsive embed-responsive-16by9">' + 
       '<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/8BPPBSDwRXk" frameborder="0" allowfullscreen></iframe></div>');
   };
   
-  window.onload = function() {
-    setTimeout(loadDisney, 2000);
+    window.onload = function () {
+      setTimeout(loadGuns, 2000);
+      setTimeout(loadStrat, 2200);
+      setTimeout(loadDisney, 2400);
   };
   
 });
