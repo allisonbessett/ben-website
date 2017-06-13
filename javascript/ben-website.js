@@ -22,9 +22,9 @@ $(document).ready(function () {
   };
   
     window.onload = function () {
-      setTimeout(loadGuns, 2000);
-      setTimeout(loadStrat, 2200);
-      setTimeout(loadDisney, 2400);
+      setTimeout(loadGuns, 600);
+      setTimeout(loadStrat, 800);
+      setTimeout(loadDisney, 1000);
   };
   
 });
