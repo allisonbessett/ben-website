@@ -23,7 +23,7 @@ h1 { /* For screen size smaller than 699px*/
 
 header {
   padding-top: 1rem;
-  padding-bottom: 2rem;
+  padding-bottom: 4rem;
   width: 100%; 
 }
   
@@ -103,6 +103,21 @@ h4 {
 
 ul {
   padding-bottom: 1.5rem;
+}
+
+.blog-container {
+  color: #16213B;
+}
+
+@media screen and (max-width: 1000px) {
+  .blog-container {
+    width: 70%;
+  }
+}
+
+.blog-date {
+  background-color: #16213B;
+  color: white;
 }
 
 .smaller {
