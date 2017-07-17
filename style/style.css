@@ -72,7 +72,7 @@ nav {
   color: white;
 }
 
-body {
+.body-blog {
    background-image: url("../images/ny.jpeg");
   background-size: cover;
 }
