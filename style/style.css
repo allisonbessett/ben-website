@@ -26,9 +26,15 @@ header {
   padding-bottom: 2rem;
   width: 100%; 
   background-color: white;
-  opacity: 0.9;
+  opacity: 0.8;
 }
 
+@media screen and (max-width: 1000px) {
+  header {
+    padding-bottom: 6rem;
+    }
+  
+  }
 
 nav {
   width: 60%;
@@ -73,8 +79,9 @@ nav {
 }
 
 .body-blog {
-   background-image: url("../images/ny.jpeg");
+  background-image: url("../images/ny.jpeg");
   background-size: cover;
+  background-repeat:no-repeat;
 }
 
 .desk {
@@ -122,12 +129,20 @@ ul {
   color: black;
   padding: 2rem;
   background-color: white;
-  opacity: 0.9;
+  opacity: 0.8;
 }
 
 @media screen and (max-width: 1000px) {
   .blog-container {
     width: 60%;
+    padding: 1rem;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .blog-container {
+    width: 80%;
+    
     padding: 1rem;
   }
 }
@@ -141,8 +156,8 @@ ul {
 }
 
 .blog-date {
-  background-color: black;
-  color: white;
+  background-color: white;
+  color: black;
   padding: 1rem;
   opacity: 0.8;
 }
@@ -151,6 +166,12 @@ ul {
   .blog-date {
     width: 30%;
     float: right;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .blog-date {
+    display: none;
   }
 }
 
