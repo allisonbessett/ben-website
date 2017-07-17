@@ -25,8 +25,11 @@ header {
   padding-top: 1rem;
   padding-bottom: 2rem;
   width: 100%; 
+  background-color: white;
+  opacity: 0.9;
 }
-  
+
+
 nav {
   width: 60%;
   font-size: 120%; 
@@ -62,6 +65,16 @@ nav {
     margin: auto;
     width: 100%;
   }
+}
+
+
+.blog-header {
+  color: white;
+}
+
+body {
+   background-image: url("../images/ny.jpeg");
+  background-size: cover;
 }
 
 .desk {
@@ -106,8 +119,10 @@ ul {
 }
 
 .blog-container {
-  color: #16213B;
+  color: black;
   padding: 2rem;
+  background-color: white;
+  opacity: 0.9;
 }
 
 @media screen and (max-width: 1000px) {
@@ -117,10 +132,19 @@ ul {
   }
 }
 
+@media screen and (min-width: 1200px) {
+  .blog-width {
+    width: 70%;
+    padding: 1rem;
+   
+  }
+}
+
 .blog-date {
-  background-color: #16213B;
+  background-color: black;
   color: white;
   padding: 1rem;
+  opacity: 0.8;
 }
 
 @media screen and (max-width: 1000px) {
