@@ -23,14 +23,14 @@ h1 { /* For screen size smaller than 699px*/
 
 header {
   padding-top: 1rem;
-  padding-bottom: 4rem;
+  padding-bottom: 2rem;
   width: 100%; 
 }
   
 nav {
   width: 60%;
   font-size: 120%; 
-  padding-bottom: 3rem; 
+  padding-bottom: 1rem; 
   float: right;
 }
 
@@ -107,17 +107,27 @@ ul {
 
 .blog-container {
   color: #16213B;
+  padding: 2rem;
 }
 
 @media screen and (max-width: 1000px) {
   .blog-container {
-    width: 70%;
+    width: 60%;
+    padding: 1rem;
   }
 }
 
 .blog-date {
   background-color: #16213B;
   color: white;
+  padding: 1rem;
+}
+
+@media screen and (max-width: 1000px) {
+  .blog-date {
+    width: 30%;
+    float: right;
+  }
 }
 
 .smaller {
