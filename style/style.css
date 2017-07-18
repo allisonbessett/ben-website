@@ -73,6 +73,10 @@ nav {
   }
 }
 
+body {
+  width: 100%;
+  min-height: 100%;
+}
 
 .blog-header {
   color: white;
@@ -82,6 +86,9 @@ nav {
   background-image: url("../images/ny.jpeg");
   background-size: cover;
   background-repeat:no-repeat;
+
+
+
 }
 
 .desk {
@@ -229,8 +236,14 @@ p {
   padding-bottom: 2rem;
 }
 
-
-
+footer {
+   clear: both;
+    position: relative;
+    z-index: 10;
+    height: 3em;
+    margin-top: -3em;
+    color: white;
+}
 
 
 
