@@ -5,7 +5,7 @@
 
 @media screen and (min-width: 1500px) {
   .container {
-    width: 80%;
+    width: 70%;
   }
 }
 
@@ -89,6 +89,17 @@ body {
   color: white;
 }
 
+.dropdown-toggle{
+  color: black;
+  font-size: 1.5rem;
+}
+
+@media screen and (min-width: 801px) {
+  .dropdown-toggle{
+    visibility: hidden;
+  }
+}
+
 .body-blog {
   background: url("../images/ny.jpeg") no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -148,27 +159,39 @@ ul {
 
 .blog-container {
   color: black;
+  text-align: justify;
   padding: 2rem;
 }
 
-@media screen and (max-width: 1000px) {
-  .blog-container {
-    width: 70%;
-    padding: 3rem;
-  }
-}
-
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 499px) {
   .blog-container {
     width: 100%;
-    margin: auto;
-    padding: 1rem 5rem;
+    margin-top: -10rem;
+    padding: 0.1rem;
   }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (max-width: 800px) and (min-width: 500px) {
+  .blog-container {
+    width: 90%;
+    margin: auto;
+    margin-top: -10rem;
+  }
+}
+
+@media screen and (min-width: 801px) and (max-width: 1399px) {
+  .blog-container {
+    width: 65%;
+    padding: 1 3rem;
+    margin-top: -5rem;
+    
+  }
+}
+
+@media screen and (min-width: 1400px) {
   .blog-container {
     padding: 1rem 3rem;
+    width: 60%;
   }
 }
 
@@ -179,18 +202,18 @@ ul {
 
 }
 
-@media screen and (max-width: 1000px) {
-  .blog-date {
-    width: 30%;
-    float: right;
-  }
-}
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
   .blog-date {
     display: none;
   }
 }
+  
+  @media screen and (min-width: 601px) and (max-width: 1201px) {
+  .blog-date {
+    width: 20%;
+    float: right;
+  }
 
 .smaller {
   display: inline;
@@ -247,15 +270,15 @@ p {
   padding-bottom: 2rem;
 }
 
-footer {
+/*footer {
    clear: both;
-    position: sticky;
+    position:relative;
     z-index: 10;
     height: 3em;
     margin-top: -3em;
     color: white;
   padding-top: 2rem;
-}
+}*/
 
 
 
