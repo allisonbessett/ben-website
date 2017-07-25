@@ -85,19 +85,55 @@ body {
   color: black;
 }
 
-.blog-header {
-  color: white;
-}
 
-.dropdown-toggle{
-  color: black;
-  font-size: 1.5rem;
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
 }
 
 @media screen and (min-width: 801px) {
-  .dropdown-toggle{
-    visibility: hidden;
+  .dropdown {
+   visibility: hidden;
   }
+}
+
+/* Dropdown Button */
+.dropbtn {
+   
+    cursor: pointer;
+}
+
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
 }
 
 .body-blog {
@@ -147,6 +183,18 @@ h2 {
   border-bottom: solid 0.3rem;
 }
 
+@media screen and (max-width: 800px) and (min-width: 500px) {
+  h2 {
+   padding-top: 7rem;
+  }
+}
+
+@media screen and (max-width: 499px) {
+  h2 {
+   padding-top: 3rem;
+  }
+}
+
 h4 {
   padding: 1rem 0;
   font-weight: 200;
@@ -175,7 +223,7 @@ ul {
   .blog-container {
     width: 90%;
     margin: auto;
-    margin-top: -10rem;
+    margin-top: -8rem;
   }
 }
 
@@ -214,6 +262,7 @@ ul {
     width: 20%;
     float: right;
   }
+}
 
 .smaller {
   display: inline;
