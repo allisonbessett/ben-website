@@ -165,7 +165,7 @@ ul {
 @media screen and (max-width: 499px) {
   .blog-container {
     width: 100%;
-    margin-top: -10rem;
+    margin-top: -4rem;
     padding: 0.1rem;
   }
 }
@@ -174,7 +174,7 @@ ul {
   .blog-container {
     width: 90%;
     margin: auto;
-    margin-top: -8rem;
+    margin-top: -5rem;
   }
 }
 
@@ -189,7 +189,6 @@ ul {
 
 @media screen and (min-width: 1400px) {
   .blog-and-date {
-  
     align-content: center;
     width: 100%;
   }
@@ -202,7 +201,6 @@ ul {
 
 }
 
-
 @media screen and (max-width: 800px) {
   .blog-date {
     display: none;
@@ -214,6 +212,16 @@ ul {
     width: 30%;
     float: right;
   }
+}
+
+.blog-photos-align {
+  text-align: center;
+  display: block;
+  padding: 2rem;
+}
+
+.blog-photos {
+   border: 20px solid white;
 }
 
 .smaller {
