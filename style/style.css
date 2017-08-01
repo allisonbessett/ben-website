@@ -160,6 +160,10 @@ ul {
   color: black;
   text-align: justify;
   padding: 2rem;
+  font-weight: 500;
+  letter-spacing: 0.05rem;
+  font-size: 1.3rem;
+  line-height: 2rem;
 }
 
 @media screen and (max-width: 499px) {
